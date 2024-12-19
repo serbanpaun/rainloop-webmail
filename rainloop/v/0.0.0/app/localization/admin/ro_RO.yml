@@ -1,0 +1,304 @@
+ro_RO:
+  LOGIN:
+    LABEL_LOGIN: "Conectare"
+    LABEL_PASSWORD: "Parolă"
+    BUTTON_LOGIN: "Conectare la panou de administrare"
+  TOP_PANEL:
+    LABEL_ADMIN_PANEL: "Panou de administrare"
+  TABS_LABELS:
+    LABEL_GENERAL_NAME: "General"
+    LABEL_LOGIN_NAME: "Conectare"
+    LABEL_BRANDING_NAME: "Branding"
+    LABEL_CONTACTS_NAME: "Contacte"
+    LABEL_DOMAINS_NAME: "Domenii"
+    LABEL_SECURITY_NAME: "Securitate"
+    LABEL_INTEGRATION_NAME: "Integrări"
+    LABEL_PLUGINS_NAME: "Module"
+    LABEL_PACKAGES_NAME: "Pachete"
+    LABEL_LICENSING_NAME: "Licențiere"
+    LABEL_ABOUT_NAME: "Despre"
+  TAB_GENERAL:
+    LEGEND_INTERFACE: "Interfață"
+    LABEL_LANGUAGE: "Limbă"
+    LABEL_LANGUAGE_ADMIN: "Limbă (admin)"
+    LABEL_THEME: "Temp"
+    LABEL_ALLOW_LANGUAGES_ON_SETTINGS: "Permite selectarea limbii pe ecranul de setări"
+    LABEL_ALLOW_THEMES_ON_SETTINGS: "Permite selectarea temei pe ecranul de setări"
+    LABEL_ALLOW_BACKGROUND_ON_SETTINGS: "Permite selectarea fundalului pe ecranul de setări"
+    LABEL_SHOW_THUMBNAILS: "Arată miniaturi (fișiere atașate)"
+    LABEL_ALLOW_GRAVATAR: "Permite Gravatar"
+    LEGEND_MAIN: "Principal"
+    LABEL_ATTACHMENT_SIZE_LIMIT: "Limită dimensiune atașament"
+    LABEL_ALLOW_ADDITIONAL_ACCOUNTS: "Permite conturi suplimentare"
+    LABEL_ALLOW_IDENTITIES: "Permite identități multiple"
+    LABEL_ALLOW_TEMPLATES: "Permite șabloane"
+    ALERT_WARNING: "Atenție!"
+    HTML_ALERT_WEAK_PASSWORD: |
+        Folosești parola de administrare implicită.
+        <br />
+        Din motive de securitate, te rog
+        <strong><a href="#/security">schimbă</a></strong>
+        parola cu alta acum.
+  TAB_LOGIN:
+    LEGEND_LOGIN_SCREEN: "Ecran conectare"
+    LABEL_DEFAULT_DOMAIN: "Domeniu implicit"
+    LABEL_DETERMINE_USER_DOMAIN: "Încearcă să determini domeniul utilizatorului"
+    LABEL_ALLOW_LANGUAGES_ON_LOGIN: "Permite selectarea limbii pe ecranul de conectare"
+    LABEL_DETERMINE_USER_LANGUAGE: "Încearcă să determini limba utilizatorului"
+  TAB_BRANDING:
+    LEGEND_BRANDING: "Branding"
+    LABEL_PAGE_TITLE: "Titlu pagină"
+    LABEL_LOADING_DESCRIPTION: "Descriere încărcare"
+    LABEL_FAVICON_URL: "Favicon"
+    LEGEND_LOGIN: "Conectare"
+    LABEL_LOGIN_LOGO: "Logo"
+    LABEL_LOGIN_DESCRIPTION: "Descriere"
+    LABEL_LOGIN_BACKGROUND: "Fundal"
+    LABEL_LOGIN_CUSTOM_CSS: "CSS personalizat"
+    LABEL_LOGIN_SHOW_POWERED_LINK: "Arată legătura \"Powered by RainLoop\""
+    LEGEND_USER: "Utilizator"
+    LABEL_USER_LOGO: "Logo"
+    LABEL_USER_LOGO_TITLE: "Titlu Logo"
+    LABEL_USER_LOGO_MESSAGE: "Logo (Vizualizare mesaj)"
+    LABEL_USER_CUSTOM_CSS: "CSS personalizat"
+    LEGEND_WELCOME_PAGE: "Pagină bun venit"
+    LABEL_WELCOME_PAGE_TITLE: "Titlu"
+    LABEL_WELCOME_PAGE_URL: "URL"
+    LABEL_WELCOME_PAGE_DISPLAY: "Afișare"
+    OPTION_WELCOME_PAGE_DISPLAY_NONE: "Nimic"
+    OPTION_WELCOME_PAGE_DISPLAY_ONCE: "O dată"
+    OPTION_WELCOME_PAGE_DISPLAY_ALWAYS: "Întotdeauna"
+  TAB_CONTACTS:
+    LEGEND_CONTACTS: "Contacte"
+    LEGEND_STORAGE: "Stocare (PDO)"
+    LABEL_ENABLE_CONTACTS: "Activează contacte"
+    LABEL_ALLOW_SYNC: "Activează sincronizare contacte (cu server CardDAV extern)"
+    LABEL_STORAGE_TYPE: "Tip"
+    LABEL_STORAGE_DSN: "DSN"
+    LABEL_STORAGE_USER: "Utilizator"
+    LABEL_STORAGE_PASSWORD: "Parolă"
+    BUTTON_TEST: "Test"
+    ALERT_NOTICE: "Notificare!"
+    HTML_ALERT_DO_NOT_USE_THIS_DATABASE: "Nu folosi acest tip de bază de date cu nu număr mare de utilizatori activi."
+    HTML_ALERT_DOES_NOT_SUPPORTED: |
+        Sistemul tău nu suportă contacte.
+        <br />
+        Trebuie să instalezi sau activezi extensia <strong>PDO (SQLite / MySQL / PostgreSQL)</strong> pe serverul tău.
+  TAB_DOMAINS:
+    LEGEND_DOMAINS: "Domenii"
+    BUTTON_ADD_DOMAIN: "Adaugă domeniu"
+    BUTTON_ADD_ALIAS: "Adaugă alias"
+    DELETE_ARE_YOU_SURE: "Ești sigur?"
+    HTML_DOMAINS_HELPER: |
+        Lista de domenii pe care webmail o poate accesa.
+        <br />
+        Clic pe nume pentru a configura domeniul.
+  TAB_SECURITY:
+    LEGEND_SECURITY: "Securitate"
+    LABEL_ALLOW_TWO_STEP: "Permite verificare în 2 pași"
+    LABEL_FORCE_TWO_STEP: "Impune verificare în 2 pași"
+    LABEL_USE_IMAGE_PROXY: "Folosește proxy local pentru imagini externe"
+    LABEL_ALLOW_OPEN_PGP: "Permite OpenPGP"
+    LABEL_SHOW_PHP_INFO: "Arată informații PHP"
+    LEGEND_ADMIN_PANEL_ACCESS_CREDENTIALS: "Credențiale acces panou de administrare"
+    LABEL_CURRENT_PASSWORD: "Parola curentă"
+    LABEL_NEW_LOGIN: "Cont nou"
+    LABEL_NEW_PASSWORD: "Parolă nouă"
+    LABEL_REPEAT_PASSWORD: "Repetă"
+    BUTTON_UPDATE_PASSWORD: "Actualizează parola"
+    LEGEND_SSL: "SSL"
+    LABEL_REQUIRE_VERIFICATION: "Cere verificarea certificatului SSL folosit(IMAP/SMTP)"
+    LABEL_ALLOW_SELF_SIGNED: "Permite certificate auto-semnate"
+  TAB_INTEGRATIONS:
+    LEGEND_GOOGLE: "Google"
+    LABEL_ENABLE_GOOGLE: "Permite integrare cu Google"
+    LABEL_GOOGLE_AUTH: "Autorizare"
+    LABEL_GOOGLE_DRIVE: "Integrare cu Google Drive (Vizualizare în mod compunere)"
+    LABEL_GOOGLE_PREVIEW: "Integrare Google Viewer (Previzualizare pentru fișiere Microsoft Word, Excel și PowerPoint)"
+    LABEL_GOOGLE_CLIENT_ID: "ID Client"
+    LABEL_GOOGLE_CLIENT_SECRET: "Secret Client"
+    LABEL_GOOGLE_API_KEY: "Cheie API"
+    HINT_GOOGLE_API_KEY: "Necesar pentru selector de fișiere Google Drive"
+    LEGEND_FACEBOOK: "Facebook"
+    LABEL_ENABLE_FACEBOOK: "Permite integrare cu Facebook (Autorizare)"
+    LABEL_FACEBOOK_APP_ID: "ID aplicație"
+    LABEL_FACEBOOK_APP_SECRET: "Secret aplicație"
+    LEGEND_TWITTER: "X"
+    LABEL_ENABLE_TWITTER: "Permite integrare cu X (Autorizare)"
+    LABEL_TWITTER_CONSUMER_KEY: "Cheie consumator"
+    LABEL_TWITTER_CONSUMER_SECRET: "Secret consumator"
+    LEGEND_DROPBOX: "Dropbox"
+    LABEL_ENABLE_DROPBOX: "Permite integrare Dropbox"
+    LABEL_DROPBOX_API_KEY: "Cheie API"
+    TOP_ALERT: "Informații detaliate despre integrarea socială sunt disponibile la "
+  TAB_PLUGINS:
+    LEGEND_PLUGINS: "Module"
+    LABEL_ENABLE_PLUGINS: "Permite module"
+    ALERT_NO_PLUGINS: "Nu au fost instalate module încă."
+    LINK_INSTALL_NEW: "Clic aici pentru a instala unele noi!"
+    HINT_CLICK_NAME: "Clic pe nume pentru a configura modulul."
+  TAB_PACKAGES:
+    LEGEND_AVAILABLE_FOR_UPDATE: "Disponibil pentru actualizare"
+    LEGEND_AVAILABLE_FOR_INSTALLATION: "Disponibil pentru instalare"
+    LEGEND_INSTALLED_PACKAGES: "Pachete instalate"
+    ALERT_CANNOT_ACCESS_REPOSITORY: "Nu pot accesa depozitul în acest moment."
+  TAB_ABOUT:
+    LEGEND_ABOUT: "Despre"
+    LABEL_TAG_HINT: "Client email bazat pe web, simplu, modern și rapid"
+    LABEL_ALL_RIGHTS_RESERVED: "Toate drepturile rezervate."
+    HINT_READ_CHANGE_LOG: "Te rog citește jurnalul modificărilor înainte de actualizare."
+    HINT_IS_UP_TO_DATE: "RainLoop este actualizat."
+    HTML_NEW_VERSION: "Versiunea nouă <b>%VERSION%</b> este disponibilă."
+    LABEL_UPDATING: "Actualizare"
+    LABEL_CHECKING: "Verificare pentru actualizări"
+    BUTTON_UPDATE: "Actualizare"
+    BUTTON_DOWNLOAD: "Descarcă"
+    BUTTON_CHANGELOG: "Jurnal modificări"
+  POPUPS_ACTIVATE:
+    TITLE_ACTIVATE: "Activare cheie abonament?"
+    TITLE_ACTIVATION: "Activare..."
+    LABEL_DOMAIN: "Domeniu"
+    LABEL_SUB_KEY: "Cheie abonament"
+    BUTTON_ACTIVATE: "Activare"
+    LABEL_ACTIVATED: "Activată"
+    ERROR_INVALID_SUBS_KEY: "Cheie anomanet incorectă"
+    SUBS_KEY_ACTIVATED: "Cheie abonament activată cu succes"
+    HTML_DESC: |
+        După activare, abonamentul premium pentru <b>%DOMAIN%</b> va fi extins.
+        <br />
+        Reține că cheia de abonament poate fi activată doar pentru un singur domeniu.
+        <br /><br />
+        Odată început, procesul activării nu poate fi întrerupt sau anulat.
+  POPUPS_DOMAIN_ALIAS:
+    TITLE_ADD_DOMAIN_ALIAS: "Adaugă alias"
+    LABEL_ALIAS: "Alias"
+    LABEL_DOMAIN: "Domeniu"
+    BUTTON_CLOSE: "Închide"
+    BUTTON_ADD: "Adaugă"
+  POPUPS_DOMAIN:
+    TITLE_ADD_DOMAIN: "Adaugă domeniu"
+    TITLE_ADD_DOMAIN_WITH_NAME: "Adaugă domeniu \"%NAME%\""
+    TITLE_EDIT_DOMAIN: "Editare domeniu \"%NAME%\""
+    LABEL_NAME: "Nume"
+    NAME_HELPER: "suportă jokeri"
+    LABEL_IMAP: "IMAP"
+    LABEL_SMTP: "SMTP"
+    LABEL_SIEVE: "SIEVE"
+    LABEL_SERVER: "Server"
+    LABEL_PORT: "Port"
+    LABEL_SECURE: "Securizat"
+    LABEL_WHITE_LIST: "Lista albă"
+    SECURE_OPTION_NONE: "Nimic"
+    SECURE_OPTION_SSL: "SSL/TLS"
+    SECURE_OPTION_STARTTLS: "STARTTLS"
+    LABEL_ALLOW_SIEVE_SCRIPTS: "Permite scripturi sieve"
+    LABEL_ALLOW_USER_SCRIPT: "Permite scripturi personalizate utilizator"
+    LABEL_USE_SHORT_LOGIN: "Folosește conectare scurtă"
+    LABEL_USE_AUTH: "Folosește autentificare"
+    LABEL_USE_PHP_MAIL: "Folosește funcția PHP mail()"
+    BUTTON_TEST: "Test"
+    BUTTON_WHITE_LIST: "Lista albă"
+    BUTTON_SIEVE_CONFIGURATION: "Configurare Sieve"
+    BUTTON_BACK_TO_IMAP: "Înapoi la setări IMAP"
+    BUTTON_BACK: "Înapoi"
+    BUTTON_CLOSE: "Închide"
+    BUTTON_ADD: "Adaugă"
+    BUTTON_UPDATE: "Actualizare"
+    NEW_DOMAIN_DESC: "Această configurare de domeniu îți va permite să lucrezi <br />cu adrese email <i>%NAME%</i>."
+    WHITE_LIST_ALERT: |
+        Lista utilizatorilor domeniului pe care webmailul o poate accesa.
+        Folosește un spațiu ca delimitator.
+  POPUPS_PLUGIN:
+    TITLE_PLUGIN: "Modul"
+    DESC_NOTHING_TO_CONFIGURE: "Nimic de configurat"
+    BUTTON_CLOSE: "Închide"
+    BUTTON_SAVE: "Salvare"
+    TOOLTIP_ABOUT_TITLE: "Despre"
+  POPUPS_ASK:
+    DESC_WANT_CLOSE_THIS_WINDOW: "Ești sigur că vrei să închizi această fereastră?"
+  POPUPS_LANGUAGES:
+    TITLE_LANGUAGES: "Alege limba ta"
+  HINTS:
+    BETA: "beta"
+    UNSTABLE: "instabil"
+    WARNING: "Atenție!"
+    NOT_SUPPORTED: "nu este suportat"
+    REQUIRES_PHP_54: "necestiă PHP 5.4 sau mai nou"
+  ERRORS:
+    DOMAIN_ALREADY_EXISTS: "Domeniul există deja"
+    UNKNOWN_ERROR: "Eroare necunoscută"
+  NOTIFICATIONS:
+    INVALID_TOKEN: "Jeton invalid"
+    AUTH_ERROR: "Autentificare eșuată"
+    ACCESS_ERROR: "Eroare acces"
+    CONNECTION_ERROR: "Nu mă pot conecta la server"
+    CAPTCHA_ERROR: "CAPTCHA incorect."
+    SOCIAL_FACEBOOK_LOGIN_ACCESS_DISABLE: >
+        Acest ID social nu este asociat cu niciun cont de email deocamdată. Conectează-te folosind
+        datele de conectare la email și activează această funcție în setările contului.
+    SOCIAL_TWITTER_LOGIN_ACCESS_DISABLE: >
+        Acest ID social nu este asociat cu niciun cont de email deocamdată. Conectează-te folosind
+        datele de conectare la email și activează această funcție în setările contului.
+    SOCIAL_GOOGLE_LOGIN_ACCESS_DISABLE: >
+        Acest ID social nu este asociat cu niciun cont de email deocamdată. Conectează-te folosind
+        datele de conectare la email și activează această funcție în setările contului.
+    DOMAIN_NOT_ALLOWED: "Domeniul nu este permis"
+    ACCOUNT_NOT_ALLOWED: "Contul nu este permis"
+    ACCOUNT_TWO_FACTOR_AUTH_REQUIRED: "Necesară verificare în 2 pași"
+    ACCOUNT_TWO_FACTOR_AUTH_ERROR: "Eroare verificare în 2 pași"
+    COULD_NOT_SAVE_NEW_PASSWORD: "Nu pot salva parola nouă"
+    CURRENT_PASSWORD_INCORRECT: "Parola curentă este incorectă"
+    NEW_PASSWORD_SHORT: "Parola e prea scurtă"
+    NEW_PASSWORD_WEAK: "Parola e prea ușoară"
+    NEW_PASSWORD_FORBIDDENT: "Parola conține caractere interzise"
+    CONTACTS_SYNC_ERROR: "Eroare sincronizare contacte"
+    CANT_GET_MESSAGE_LIST: "Nu pot prelua lista de mesaje"
+    CANT_GET_MESSAGE: "Nu pot prelua mesajul"
+    CANT_DELETE_MESSAGE: "Nu pot șterge mesajul"
+    CANT_MOVE_MESSAGE: "Nu pot muta mesajul"
+    CANT_SAVE_MESSAGE: "Nu pot salva mesajul"
+    CANT_SEND_MESSAGE: "Nu pot trimite mesajul"
+    INVALID_RECIPIENTS: "Recipienți incorecți"
+    CANT_SAVE_FILTERS: "Nu pot salva filtrele"
+    CANT_GET_FILTERS: "Nu pot prelua filtrele"
+    FILTERS_ARE_NOT_CORRECT: "Filtrele sunt incorecte"
+    CANT_CREATE_FOLDER: "Nu pot crea dosarul"
+    CANT_RENAME_FOLDER: "Nu pot redenumi dosarul"
+    CANT_DELETE_FOLDER: "Nu pot șterge dosarul"
+    CANT_DELETE_NON_EMPTY_FOLDER: "Nu pot șterge dosarul care nu e gol"
+    CANT_SUBSCRIBE_FOLDER: "Nu mă pot abona la dosar"
+    CANT_UNSUBSCRIBE_FOLDER: "Nu mă pot dezabona de la dosar"
+    CANT_SAVE_SETTINGS: "Nu pot salva setările"
+    CANT_SAVE_PLUGIN_SETTINGS: "Nu pot salva setările modulului"
+    DOMAIN_ALREADY_EXISTS: "Domeniul există deja"
+    CANT_INSTALL_PACKAGE: "Instalarea pachetelor a eșuat"
+    CANT_DELETE_PACKAGE: "Ștergerea pachetelor a eșuat"
+    INVALID_PLUGIN_PACKAGE: "Pachet modul incorect"
+    UNSUPPORTED_PLUGIN_PACKAGE: "Pachet modul nesuportat"
+    LICENSING_SERVER_IS_UNAVAILABLE: "Serverul de abonamente este indisponibil."
+    LICENSING_DOMAIN_EXPIRED: "Abonamentul pentru acest domeniu este expirat."
+    LICENSING_DOMAIN_BANNED: "Abonamentul pentru acest domeniu nu este permis."
+    DEMO_SEND_MESSAGE_ERROR: "Din motive de securitate, acestui cont nu-i este permisă trimiterea de mesaje către adrese email externe!"
+    DEMO_ACCOUNT_ERROR: "Din motive de securitate, acestui cont nu-i este permisă această acțiune!"
+    ACCOUNT_ALREADY_EXISTS: "Contul există deja"
+    ACCOUNT_DOES_NOT_EXIST: "Contul nu există"
+    MAIL_SERVER_ERROR: "A intervenit o eroare în timpul accesări serverului de mail"
+    INVALID_INPUT_ARGUMENT: "Argument de intrare incorect"
+    UNKNOWN_ERROR: "Eroare necunoscută"
+  STATIC:
+    BACK_LINK: "Reîncărcare"
+    DOMAIN_LIST_DESC: "Lista de domenii pe care webmailul o poate accesa."
+    PHP_EXSTENSIONS_ERROR_DESC: "Extensia PHP necesară nu este disponibilă în configurația ta PHP!"
+    PHP_VERSION_ERROR_DESC: "Versiunea ta PHP (%VERSION%) este mai mică decât cerința minimă 5.3.0!"
+    NO_SCRIPT_TITLE: "JavaScript este necesar pentru această aplicație."
+    NO_SCRIPT_DESC: |
+        Suportul pentru JavaScript nu este disponibil în browserul tău.
+        Te rog activează suportul pentru JavaScript în setările browserului tău și reîncearcă.
+    NO_COOKIE_TITLE: "Suportul pentru cookies este necesar pentru această aplicație."
+    NO_COOKIE_DESC: |
+        Suportul pentru cookies nu este disponibil în browserul tău.
+        Te rog activează suportul pentru cookies în setările browserului tău și reîncearcă.
+    BAD_BROWSER_TITLE: "Browserul tău este depășit."
+    BAD_BROWSER_DESC: |
+        Pentru a folosi toate funcțiile acestei aplicații,
+        descarcă și instalează unul dintre acești browseri:
